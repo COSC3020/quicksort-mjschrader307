@@ -26,7 +26,7 @@ function partition(array, start, end) {
   return i + 1;
 }
 
-function quickSort(array) {
+function quicksort(array) {
   let n = array.length;
 
   // Empty array case
