@@ -20,6 +20,8 @@ Answer: The worst-case situation for this algorithm would involve maximizing the
 
 ---
 
+Went to office hours --> got suggestion to mimic the recursion using a data structure --> led me to try using an explicit implemenation of a stack (list of tuples of subarray bounds) as opposed to letting the function call stack handle it like normal
+
 I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
 otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
