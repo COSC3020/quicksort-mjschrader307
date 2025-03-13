@@ -16,7 +16,7 @@ markdown file.
 
 ---
 
-Answer: The worst-case situation for this algorithm would involve maximizing the number of iterations in the partition step and also maximizing the while-loop iterations in the `quickSort()` function. To maximize the iterations in the partition step, the pivot value would have to be swapped *n* times. To maximize the while-loop iterations in the main `quicksort()` function, the worst possible pivot value would have to be chosen every time, resulting in *n* partition iterations. In the case that *n* partitions are done with each partition moving the pivot value *n* times, that gives this function a worst-case time complexity of $\Theta(n^2)$.
+Answer: The worst-case situation for this algorithm would involve maximizing the number of iterations in the partition step and also maximizing the while-loop iterations in the main `quicksort()` function. To maximize the iterations in the partition step, the pivot value would have to be swapped *n* times. To maximize the while-loop iterations in the main `quicksort()` function, the worst possible pivot value would have to be chosen every time, resulting in *n* partition iterations. In the case that *n* partitions are done with each partition moving the pivot value *n* times, that gives this function a worst-case time complexity of $\Theta(n^2)$.
 
 ---
 
